@@ -28,7 +28,7 @@ main {
     flex-row-gap: 244px;
     width: 1321px;
     height: 646px;
-    margin: 50px 140px 0;
+    margin: 50px 140px 50px;
     background-color: #161616;
     border-radius: 30px;
 }
@@ -68,11 +68,46 @@ main {
 
 /* ------------------------------------------------this is the second-middle body
 -------------------------------------------------------------------------------- */
+
+.middle-shediul-match {}
+
+.blogss {
+    padding: 40px 40px;
+    background: #161616;
+    border-radius: 10px;
+}
+
 .up-group-blog {
-    display: flex;
-    flex-direction: column;
+    /* display: grid;
+    flex-direction: column; */
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    border-radius: 10px;
 }
 
 .up-group-blog a {
     text-decoration: none;
+    padding: 25px 50px;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+
+}
+
+.up-group-blog .shidul-show {
+    margin: 0 5px;
+    background-color: white;
+}
+
+.up-group-blog .shidul-nonshow {
+    background-color: red;
+    color: white;
+
+}
+
+/* ---------------------------------------9ta maches eksathe
+---------------------------------------------------------- */
+.nine-icons {
+    display: flex;
 }
