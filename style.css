@@ -8,9 +8,20 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: rgb(252, 252, 252);
 }
 
-/* manin-banner-header */
+
+/* -------------------------------------------manin-banner-header
+----------------------------------------------------------------- */
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 .manin-banner-header {
     display: flex;
     flex-direction: row;
@@ -18,18 +29,9 @@ body {
     width: 1321px;
     height: 646px;
     margin: 50px 140px 0;
-    /* color: white; */
     background-color: #161616;
     border-radius: 30px;
-
-
 }
-
-
-
-
-
-
 
 .header-info {
     color: white;
@@ -57,49 +59,20 @@ body {
     color: white;
 }
 
-/* 
-.header-info {
-    margin: 51px 24px 51px 106px;
-    width: 531px;
-    height: 424px;
-.header-info-h {
-    font-weight: 700;
-    font-size: 70px;
-    width: 531px;
-    height: 40px;
-    margin-bottom: 20px;
-
-}
-.header-info-p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    width: 506px;
-    height: 78px;
-    margin-bottom: 20px;
-
-}
-
-
-.live {
-    display: inline-block;
-    padding: 16px 25px;
-    width: 137px;
-    height: 24px;
-    gap: 10px;
-    background: #DD0000;
-    border-radius: 5px;
-
-}
-
-.live a {
-    text-decoration: none;
-    color: white;
-} */
-
 .header-pic img {
     width: 581px;
     height: 613px;
     margin-top: 33px;
     margin-right: 79px;
+}
+
+/* ------------------------------------------------this is the second-middle body
+-------------------------------------------------------------------------------- */
+.up-group-blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.up-group-blog a {
+    text-decoration: none;
 }
