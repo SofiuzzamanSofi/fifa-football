@@ -157,9 +157,11 @@ footer {
     color: white;
 }
 
-.horizontal .hrrr {
+hr {
     margin: 50px 5px;
-    color: aqua;
+    height: 1px;
+    background-color: rgb(53, 52, 52);
+    border: none;
 }
 
 
