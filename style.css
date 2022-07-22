@@ -17,7 +17,7 @@ body {
 
 main {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
 }
@@ -108,6 +108,7 @@ main {
 
 /* ---------------------------------------9ta maches eksathe
 ---------------------------------------------------------- */
-.nine-icons {
+
+..nine-icons {
     display: flex;
 }
