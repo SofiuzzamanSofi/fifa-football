@@ -30,7 +30,7 @@ main {
     height: 646px;
     margin: 50px 140px 50px;
     background-color: #161616;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .header-info {
@@ -69,7 +69,16 @@ main {
 /* ------------------------------------------------this is the second-middle body
 -------------------------------------------------------------------------------- */
 
-.middle-shediul-match {}
+.middle-shediul-match {
+    width: 1321px;
+    border-radius: 20px;
+    border: 3px solid green;
+    margin: 50px 140px 50px;
+    display: grid;
+    grid-template-columns: 312px auto;
+    grid-column-gap: 25px;
+}
+
 
 .blogss {
     padding: 40px 40px;
@@ -108,7 +117,14 @@ main {
 
 /* ---------------------------------------9ta maches eksathe
 ---------------------------------------------------------- */
+.maches-1 {
+    width: 312px;
+    height: 362px;
+    border: 1px solid rgb(187, 184, 184);
+    border-radius: 5px;
+}
 
-..nine-icons {
+.nine-icons {
     display: flex;
+    justify-content: space-between
 }
