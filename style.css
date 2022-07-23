@@ -152,6 +152,15 @@ main {
 }
 
 
+/* -----------------------------------------------view all button
+--------------------------------------------------- */
+.button {
+    visibility: hidden;
+}
+
+
+
+
 /* -----------------------------------------------footer
 --------------------------------------------------- */
 footer {
@@ -183,8 +192,83 @@ hr {
 
 /* -------------------------------------------------------------tablet device
 ------------------------------------------------------------- */
-@media only screen and (max-width: 689px) and (max-width: 992px) {}
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+
+    .manin-banner-header {
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+    }
+
+    .header-pic img {
+        width: 100%;
+        height: 100%;
+        margin-top: auto;
+        margin-right: auto;
+    }
+
+    footer {
+        width: 100%;
+        height: 100%;
+        background-color: aqua;
+    }
+
+    .button {
+        visibility: visible;
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .button button {
+        color: white;
+        background-color: red;
+        padding: 5px 20px;
+        border-radius: 5px;
+    }
+
+}
 
 /* -------------------------------------------------------------mobile device
 ------------------------------------------------------------- */
-@media only screen and (max-width: 688px) {}
+@media only screen and (max-width: 688px) {
+
+    .manin-banner-header {
+        flex-direction: column;
+        width: 75%;
+        height: 75%;
+    }
+
+    .header-pic img {
+        width: 100%;
+        height: 100%;
+        margin-top: auto;
+        margin-right: auto;
+    }
+
+    .middle-shediul-match {
+        /* width: 1321px;
+        border-radius: 20px;
+        margin: 50px 140px 50px; */
+        display: block;
+    }
+
+    /* .all-of-the-maches {
+        display: block;
+    } */
+
+    .mache {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;
+    }
+
+    footer {
+        height: 100%;
+        width: 100%;
+    }
+
+    .button {
+        visibility: hidden;
+    }
+}
