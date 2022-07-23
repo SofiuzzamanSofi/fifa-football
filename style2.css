@@ -115,41 +115,40 @@ main {
 ---------------------------------------------------------- */
 .all-of-the-maches {
     display: inline-block;
-}
-
-.mache {
     margin-left: 24px;
+    margin-bottom: 100px;
 }
 
-.maches-1 {
-    width: 312px;
-    height: 362px;
-    border: 1px solid rgb(187, 184, 184);
-    border-radius: 5px;
-}
-
-.nine-without-image {
-    padding: 10px 20px;
-}
-
-.nine-button button {
-    width: 100px;
-    height: 32px;
-    border-radius: 5px;
-}
-
-.nine-icons {
-    display: flex;
-    justify-content: flex-start;
-    gap: 40px;
-}
-
-.mache {
+.all-six-class {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
     grid-row-gap: 24px;
 }
+
+.maches-1 {
+    width: 312px;
+    height: 242px;
+    border: 1px solid rgb(187, 184, 184);
+    border-radius: 10px;
+}
+
+.nine-img {
+    padding: 40px;
+
+}
+
+.vs-image {
+    display: flex;
+    justify-content: space-around
+}
+
+.nine-without-image {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
 
 
 /* -----------------------------------------------footer
