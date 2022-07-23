@@ -201,7 +201,6 @@ hr {
     footer {
         width: 100%;
         height: 100%;
-        background-color: aqua;
     }
 
     .button {
@@ -237,15 +236,10 @@ hr {
     }
 
     .middle-shediul-match {
-        /* width: 1321px;
-        border-radius: 20px;
-        margin: 50px 140px 50px; */
         display: block;
     }
 
-    /* .all-of-the-maches {
-        display: block;
-    } */
+
 
     .mache {
         display: grid;
@@ -261,5 +255,9 @@ hr {
 
     .button {
         visibility: hidden;
+    }
+
+    .contact-us {
+        flex-direction: column;
     }
 }
